@@ -1,3 +1,4 @@
+#Author: Chris Wong: www.chriskbwong.com
 def mergeSort(givenList):
     if len(givenList)>1:
         mid = len(givenList)//2 #splits givenList in half
@@ -30,7 +31,10 @@ def mergeSort(givenList):
             z = z + 1
     #merges the givenList
 
-givenList = [-10, 2, 0, 9 , 7, 79, 0, 6]
-mergeSort(givenList)
-print(givenList)
-#return(givenList)
+testOneList = [-10, 2, 0, 9 , 7, 79, 0, 6]
+mergeSort(testOneList)
+print(testOneList)
+
+testTwoList = [-1000, 44, 0, 9 , 9, 7, -1, 77, 99]
+mergeSort(testTwoList)
+print(testTwoList)
